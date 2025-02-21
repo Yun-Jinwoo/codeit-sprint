@@ -5,7 +5,7 @@
 ## CSS의 full name
 
 <aside>
-<img src="css-img.png" alt="css-img" width="40px" />
+<img src="css-img.png" alt="css-img" width="100px" />
 
 **CSS 는 Cascading Style Sheet 의 약자이다.** 
 
@@ -17,7 +17,7 @@
 
 ## Cascading의 사전적 의미
 
-**Cascade** 는 `폭포`라는 ****뜻의 단어이다.
+**Cascade** 는 `폭포`라는 뜻의 단어이다.
 
 즉, **Cascading**은 `폭포처럼 위에서 아래로 내려가는` 뜻으로 해석할 수 있다.
 
@@ -231,13 +231,13 @@ p.text { color: blue; }  /* 10점 */
 
 `부모 요소`**의 스타일을** `자식 요소`**가** **따라간다고 했으므로,** `What is Cascading?` ****에는 ****부모 요소의 영향으로 `color: red;`가 적용될 것이다.
 
----
-
 ## 정리
 
 이렇게 CSS에서는 **우선순위**와 **상속**을 통해 어떤 스타일이 적용될 지 결정된다.
 
 앞으로 CSS를 다루다가 원하는 속성이 적용이 안된다면, Cascading 규칙이 지켜졌는지 확인하면 되겠다.
+
+---
 
 # 2️⃣**시맨틱 태그를 사용하면 좋은 점을 설명해 주세요.**
 
