@@ -1,2 +1,13 @@
 # codeit-sprint
-Codeit Sprint 프론트엔드 15기: 프로젝트 및 학습 노트
+
+Codeit Sprint 프론트엔드 15기에 참여하면서
+
+진행하는 프로젝트 및 학습 노트를 정리할 예정
+
+## 📖 Weekly-paper
+
+<a href="">Week-1</a>
+
+## 🎯 Sprint-mission
+
+<a href="https://github.com/codeit-bootcamp-frontend/15-Sprint-Mission/pull/7">Sprint-Mission-1</a>
