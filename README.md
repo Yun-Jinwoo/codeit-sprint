@@ -10,6 +10,9 @@ Codeit Sprint 프론트엔드 15기에 참여하면서
 
 <a href="weekly paper/week 1/weekly paper.md">Week-1</a>
 
+<a href="weekly paper/week 2/weeklypaper.md">Week-2</a>
+
+
 <br>
 
 ## 🎯 Sprint-mission
