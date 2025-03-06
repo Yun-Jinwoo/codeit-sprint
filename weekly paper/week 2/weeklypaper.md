@@ -1,15 +1,5 @@
 ## Git에서 branch merge 방법들과 각 방법의 특징을 설명해 주세요.
 
-![](https://velog.velcdn.com/images/yjw3480/post/b88cdab1-5f5f-44b7-99e6-56a7a40084af/image.png)
-
-git에서 branch끼리 merge할 경우
-
-선택할 수 있는 옵션들이 존재한다.
-
-각 옵션들에 대해 알아보자.
-
-## ➕ branch merge
-
 💡 **여러명이 공동 작업하는** `repository`를 `clone`하여 작업을 한다고 생각해보자
 
 
