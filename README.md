@@ -19,7 +19,7 @@ Codeit Sprint 프론트엔드 15기에 참여하면서
 
 <a href="https://github.com/codeit-bootcamp-frontend/15-Sprint-Mission/pull/7">Sprint-Mission-1</a>
 <details>
-<summary>1주차 피드백✏️</summary>
+<summary>1주차 피드백 정리✏️</summary>
 <div markdown="1">
   
 ### 🖼️ 이미지 추출
