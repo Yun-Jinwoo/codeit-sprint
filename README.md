@@ -73,6 +73,14 @@ color, padding, margin, fontSize 등 작업 중 많이 사용되는 값들이 �
 .div {
   background-color: var(--gray100);
 }
+```
+</div>
+</details>
+
+<a href="https://github.com/codeit-bootcamp-frontend/15-Sprint-Mission/pull/57">Sprint-Mission-2</a>
+<details>
+<summary>2주차 피드백 정리✏️</summary>
+<div markdown="1">
 
 </div>
 </details>
