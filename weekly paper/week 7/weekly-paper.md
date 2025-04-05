@@ -12,7 +12,8 @@
 
 ## **⚙️ Virtual DOM의 기본 원리**
 
-![image.png](attachment:6c1e0645-e9e6-4d52-9cf9-df3ab9f38f42:image.png)
+![image](https://github.com/user-attachments/assets/2b6e8770-cb39-4e47-be28-2ba642be34f6)
+
 
 Virtual DOM의 원리는 아래와 같다.
 
