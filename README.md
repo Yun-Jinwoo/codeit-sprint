@@ -194,3 +194,5 @@ SNS에서 랜딩 페이지 공유시 미리보기를 볼 수 있도록 하는 �
 
 </div>
 </details>
+
+<a href="https://github.com/codeit-bootcamp-frontend/15-Sprint-Mission/pull/177">Sprint-Mission-6</a>
