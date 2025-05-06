@@ -3,11 +3,11 @@ import CalendarContext from "./CalendarContext";
 
 const CalendarHeader = () => {
   const { currentMonth } = useContext(CalendarContext);
-  const date = `${currentMonth.getFullYear()}년 ${
+  const month = `${currentMonth.getFullYear()}년 ${
     currentMonth.getMonth() + 1
   }월`;
 
-  return <div className="selected-date">{date}</div>;
+  return <div className="selected-month">{month}</div>;
 };
 
 export default CalendarHeader;
