@@ -18,6 +18,7 @@ function App() {
       <Calendar.Header />
       <Calendar.Navigator />
       <Calendar.Body />
+      <Calendar.Footer />
     </Calendar>
   );
 }

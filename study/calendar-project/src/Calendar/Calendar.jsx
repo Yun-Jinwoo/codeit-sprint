@@ -3,6 +3,7 @@ import CalendarContext from "./CalendarContext";
 import CalendarHeader from "./CalendarHeader";
 import CalendarNavigator from "./CalendarNavigator";
 import CalendarBody from "./CalendarBody";
+import CalendarFooter from "./CalendarFooter";
 import "./Calendar.css";
 
 const Calendar = ({ onChange, value, children }) => {
@@ -20,5 +21,6 @@ const Calendar = ({ onChange, value, children }) => {
 Calendar.Header = CalendarHeader;
 Calendar.Navigator = CalendarNavigator;
 Calendar.Body = CalendarBody;
+Calendar.Footer = CalendarFooter;
 
 export default Calendar;
