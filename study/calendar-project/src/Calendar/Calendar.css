@@ -6,7 +6,7 @@
   position: relative;
 }
 
-.selected-date {
+.selected-month {
   display: flex;
   justify-content: center;
   border-bottom: 1px solid gray;
@@ -84,4 +84,8 @@
 
 button {
   cursor: pointer;
+}
+
+.selected-date {
+  font-size: 10px;
 }
