@@ -1,12 +1,18 @@
-# React + Vite
+## 공통 컴포넌트 구현하기 - Accordion
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### 🎯 요구사항
+- [x] Trigger를 눌렀을 때 Pannel이 아래로 펼쳐져야 함.
+- [x] 펼쳐진 Pannel에 대한 Trigger를 눌렀을 때는 다시 Pannel이 접혀야 함.
+- [x] Pannel은 두개 이상 펼쳐질 수 있음.
 
-Currently, two official plugins are available:
+### 📷 스크린샷
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![image](https://github.com/user-attachments/assets/2449a01a-242a-4462-aa95-9e637564f1ad)
 
-## Expanding the ESLint configuration
+![image](https://github.com/user-attachments/assets/5b1e07cd-64c5-461a-bb58-f827978ee4f4)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### ⭐ 특이사항
+
+각 Item들의 펼쳐진 상태를 관리하기 위해 Context를 활용함
+
+화살표 아이콘을 사용하기 위해 react-icons 라이브러리 활용
