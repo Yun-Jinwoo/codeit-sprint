@@ -23,6 +23,7 @@ const CalendarBody = () => {
   for (let i = 0; i < 42; i++) {
     const date = new Date(firstDate);
     date.setDate(firstDate.getDate() + i);
+    if (i === 35 && date.getMonth() !== currentMonth.getMonth()) break;
     dateList.push(date);
   }
 
