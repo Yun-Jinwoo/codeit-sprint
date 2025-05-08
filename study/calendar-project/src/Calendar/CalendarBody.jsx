@@ -1,6 +1,8 @@
 import { useContext } from "react";
 import CalendarContext from "./CalendarContext";
 
+const dayList = ["일", "월", "화", "수", "목", "금", "토"];
+
 const CalendarBody = () => {
   const { selectedDate, currentMonth, setCurrentMonth, onChange } =
     useContext(CalendarContext);
@@ -18,7 +20,6 @@ const CalendarBody = () => {
   );
   firstDate.setDate(firstDate.getDate() - firstDay);
 
-  const dayList = ["일", "월", "화", "수", "목", "금", "토"];
   const dateList = [];
   for (let i = 0; i < 42; i++) {
     const date = new Date(firstDate);

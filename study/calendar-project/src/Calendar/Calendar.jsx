@@ -1,10 +1,10 @@
 import { useState } from "react";
+import "./Calendar.css";
 import CalendarContext from "./CalendarContext";
 import CalendarHeader from "./CalendarHeader";
 import CalendarNavigator from "./CalendarNavigator";
 import CalendarBody from "./CalendarBody";
 import CalendarFooter from "./CalendarFooter";
-import "./Calendar.css";
 
 const Calendar = ({ onChange, value, children }) => {
   const [currentMonth, setCurrentMonth] = useState(value);
