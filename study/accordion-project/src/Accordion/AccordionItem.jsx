@@ -1,7 +1,7 @@
 import { useState } from "react";
 import AccordionContext from "./AccordionContext";
 
-const AccordionItem = ({ value, children }) => {
+const AccordionItem = ({ children }) => {
   const [isOpen, setIsOpen] = useState(false);
   const onShow = () => {
     setIsOpen(!isOpen);
@@ -9,7 +9,7 @@ const AccordionItem = ({ value, children }) => {
 
   return (
     <AccordionContext.Provider value={{ isOpen, onShow }}>
-      <div className={`accordion-item ${value}`}>{children}</div>
+      <div className={`accordion-item`}>{children}</div>
     </AccordionContext.Provider>
   );
 };
