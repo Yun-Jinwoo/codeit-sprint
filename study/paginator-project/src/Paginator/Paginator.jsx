@@ -3,18 +3,24 @@ import "./Paginator.css";
 
 const Paginator = ({ itemCount, currentPage, onChange }) => {
   const totalPages = Math.ceil(itemCount / 10);
-  const pageNumArr = new Array(totalPages).fill(0).map((_, index) => index + 1); // [1, 2, 3, 4, ... , 11, 12, 13]
+
+  // [1, 2, 3, 4, ... , 11, 12, 13]
+  const pageNumArr = Array.from(
+    { length: totalPages },
+    (_, index) => index + 1
+  );
+
   // 5개 단위로 자르기
   const startPage = Math.floor((currentPage - 1) / 5) * 5;
   const currentGroup = pageNumArr.slice(startPage, startPage + 5); // [1, 2, 3, 4, 5], [6, 7, 8, 9, 10]
 
-  const goToPrevGroup = () => {
+  const goPrev = () => {
     if (currentPage === 1) return;
     const start = currentPage - 1;
     onChange(start);
   };
 
-  const goToNextGroup = () => {
+  const goNext = () => {
     if (currentPage >= totalPages) return;
     const start = currentPage + 1;
     onChange(start);
@@ -23,7 +29,7 @@ const Paginator = ({ itemCount, currentPage, onChange }) => {
   return (
     <>
       <div className="paginator">
-        <button disabled={currentPage <= 1} onClick={goToPrevGroup}>
+        <button disabled={currentPage <= 1} onClick={goPrev}>
           <SlArrowLeft />
         </button>
         {currentGroup.map((num) => (
@@ -35,7 +41,7 @@ const Paginator = ({ itemCount, currentPage, onChange }) => {
             {num}
           </button>
         ))}
-        <button disabled={currentPage >= totalPages} onClick={goToNextGroup}>
+        <button disabled={currentPage >= totalPages} onClick={goNext}>
           <SlArrowRight />
         </button>
       </div>
