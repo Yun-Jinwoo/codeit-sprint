@@ -6,7 +6,7 @@ const Paginator = ({ itemCount, currentPage, onChange }) => {
   const pageNumArr = new Array(totalPages).fill(0).map((_, index) => index + 1); // [1, 2, 3, 4, ... , 11, 12, 13]
   // 5개 단위로 자르기
   const startPage = Math.floor((currentPage - 1) / 5) * 5;
-  const currentGroup = pageNumArr.slice(startPage, startPage + 5);
+  const currentGroup = pageNumArr.slice(startPage, startPage + 5); // [1, 2, 3, 4, 5], [6, 7, 8, 9, 10]
 
   const goToPrevGroup = () => {
     if (currentPage === 1) return;
@@ -22,7 +22,7 @@ const Paginator = ({ itemCount, currentPage, onChange }) => {
 
   return (
     <>
-      <div className="Paginatior">
+      <div className="paginator">
         <button disabled={currentPage <= 1} onClick={goToPrevGroup}>
           <SlArrowLeft />
         </button>
